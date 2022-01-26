@@ -1,0 +1,60 @@
+.day {
+    height: 100vh;
+    min-width: 350px;
+    background-color: white;
+    overflow-y: scroll;
+
+}
+
+.day_header {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 100px;
+}
+
+.day_header-title {
+    font-size: 24px;
+    font-weight: 700;
+    padding: 0px 30px;
+    margin-top: 15px;
+}
+
+.day_header-text {
+    font-size: 12px;
+    font-weight: 400;
+    padding: 0px 30px;
+}
+
+.day_tasks {
+    padding: 0px 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    overflow-y: hidden;
+}
+
+.day_input {
+    width: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    height: 25px;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.day_input img {
+    margin-left: 7px;
+    height: 50%;
+    cursor: pointer;
+}
+
+.day_input input {
+    border: none;
+    border-bottom: solid 1px #C1C1C1;
+    height: 100%;
+    width: 100%;
+    padding: 0px 15px;
+}

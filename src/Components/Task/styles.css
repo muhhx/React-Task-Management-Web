@@ -1,0 +1,27 @@
+.task_container {
+    width: 100%;
+    min-height: 25px;
+    display: flex;
+    gap: 15px;
+    align-items: flex-start;
+}
+
+.task_container img {
+    cursor: pointer;
+    height: 10px;
+    margin-top: 8px;
+}
+
+.task_status {
+    height: 25px;
+    border: solid 0.5px black;
+    border-radius: 100%;
+    aspect-ratio: 1;
+    cursor: pointer;
+}
+
+.task_container p {
+    font-weight: 400;
+    font-size: 12px;
+    padding-top: 4px;
+}

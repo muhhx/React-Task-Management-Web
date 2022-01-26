@@ -1,0 +1,63 @@
+.dashboard_container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.sidebar_container {
+    height: 100vh;
+    min-width: 300px;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 0px 30px;
+    display: flex;
+    align-items: center;
+}
+
+.sidebar_wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    height: 90%;
+}
+
+.sidebar_wrapper div {
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar_profile {
+    height: 40px;
+    width: 40px;
+    background-color: black;
+    border-radius: 100%;
+    margin-bottom: 10px;
+}
+
+.sidebar_name {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.sidebar_email {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.sidebar_button {
+    height: 50px;
+    width: 100%;
+    border: none;
+    background-color: #303030;
+    color: white;
+    text-align: left;
+    padding: 0px 25px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.main_container {
+    display: flex;
+    overflow-x: scroll;
+}

@@ -1,0 +1,12 @@
+.login_footer {
+    position: absolute;
+    bottom: 0;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.login_footer span {
+    font-weight: normal;
+    font-size: 12px;
+}
